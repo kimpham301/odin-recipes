@@ -1,8 +1,11 @@
 *{
-    background-color:blanchedalmond;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom:10px;
     padding-bottom:10px;
+}
+
+body{
+    background-color:antiquewhite;
 }
 .container{
     text-align:center;
@@ -12,7 +15,7 @@
     transform: translate(-50%,0);
 }
 img{
-    width: 400px;
+    width: 500px;
     height: auto;
 }
 img:hover{
@@ -23,7 +26,7 @@ h1{
     color:brown;
     font-weight:bold;
 }
-a{
+#navigate{
     display:block;
     color: #631903;
 }
