@@ -1,6 +1,8 @@
 *{
     background-color:blanchedalmond;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom:10px;
+    padding-bottom:10px;
 }
 .container{
     text-align:center;
@@ -22,6 +24,6 @@ h1{
     font-weight:bold;
 }
 a{
-    color: black;
-    background-color:brown;
+    display:block;
+    color: #631903;
 }
