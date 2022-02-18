@@ -16,7 +16,7 @@ body{
     background:#fcfbe8;
     border:0px solid;
     border-radius:0.8em;
-    box-shadow: black 10px 12px;
+    box-shadow: black 10px 12px 30px;
     position:absolute;
     text-align:center;
     top:50%;
