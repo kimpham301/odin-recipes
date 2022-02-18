@@ -4,18 +4,25 @@
 }
 
 body{
-    background-color:rgb(224, 217, 208);
+    background-image:url("http://static.asiawebdirect.com/m/bangkok/portals/vietnam/homepage/hoi-an/pagePropertiesImage/hoi-an.jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     margin-left:25px;
 
 }
 
 .container{
+    background:#fcfbe8;
+    border:0px solid;
+    border-radius:0.8em;
+    box-shadow: black 10px 12px;
     position:absolute;
     text-align:center;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%)
-  
+    
 }
 .container ul{
 
@@ -40,15 +47,19 @@ body{
     border-radius: 10px;
     padding: 5px;
     text-decoration: none;
+    
   }
 .content{
+    position:absolute;
     max-width: 60%;
     height:auto;
     padding:10px;
     margin-bottom:20px;
     border:#631903 solid 1px;
-    border-radius:5px;
+    border-radius:10px;
     background-color: #fcfbe8;
+    left:50%;
+    transform: translate(-50%,0)
 }
 img{
     width: 500px;
