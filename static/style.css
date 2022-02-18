@@ -1,18 +1,28 @@
 *{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom:10px;
-    padding-bottom:10px;
+    box-sizing:border-box;
 }
 
 body{
-    background-color:antiquewhite;
+    background-color:rgb(224, 217, 208);
+  
 }
+
 .container{
+    position:absolute;
     text-align:center;
-    position:relative;
     top:50%;
     left:50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%,-50%)
+  
+}
+.content{
+    max-width: 60%;
+    height:auto;
+    padding:10px;
+    border:#631903 solid 1px;
+    border-radius:5px;
+    background-color: #fcfbe8;
 }
 img{
     width: 500px;
@@ -27,6 +37,7 @@ h1{
     font-weight:bold;
 }
 #navigate{
+    line-height:30px;
     display:block;
     color: #631903;
 }
