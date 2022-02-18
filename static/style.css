@@ -5,7 +5,8 @@
 
 body{
     background-color:rgb(224, 217, 208);
-  
+    margin-left:25px;
+
 }
 
 .container{
@@ -16,10 +17,35 @@ body{
     transform: translate(-50%,-50%)
   
 }
+.container ul{
+
+    list-style-type: none;
+}
+.container li{
+    font-size: 20px;
+    margin-bottom:30px;
+  }
+  .container a{
+    background: rgb(85, 9, 9);
+    color: rgb(240, 240, 240);
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .container a:hover{
+    background:rgb(224, 217, 208);
+    color:#631903;  
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+  }
 .content{
     max-width: 60%;
     height:auto;
     padding:10px;
+    margin-bottom:20px;
     border:#631903 solid 1px;
     border-radius:5px;
     background-color: #fcfbe8;
@@ -36,8 +62,14 @@ h1{
     color:brown;
     font-weight:bold;
 }
+.navigate{
+    position:fixed;
+    top:10px;
+    right:40px;
+}
 #navigate{
-    line-height:30px;
+    text-align:right;
     display:block;
+    line-height:30px;
     color: #631903;
 }
