@@ -1,5 +1,11 @@
-#Vietnamese Food Recipes
+# Vietnamese Food Recipes
+This repository is for practicing purposes for [The Odin Project](https://www.theodinproject.com/)
 
-<a href="https://kimpham301.github.io/odin-recipes/" target="_blank" rel="noopener noreferrer"> View page</a>
-<p>Recipes pages for Odin Project</p>
-<p> Using HTML, CSS</p>
+## Live Page
+
+[Vietnamese Food Recipes](https://kimpham301.github.io/odin-recipes/)
+
+## Language Used
+
+HTML and CSS
+
